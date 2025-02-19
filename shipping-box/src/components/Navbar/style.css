@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  padding: 1rem;
+}
+
+.navbar .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 5px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .list {
+  display: flex;
+  gap: 5px;
+}
+
+.active {
+  font-weight: bold;
+  margin-right: 15px;
+}

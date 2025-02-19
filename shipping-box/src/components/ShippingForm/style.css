@@ -1,0 +1,40 @@
+.form {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px grey;
+}
+.form .field {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.form .label {
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+.form input,
+.form select {
+  width: 100%;
+  min-height: 25px;
+}
+
+.form input[type="color"] {
+  width: 100px;
+}
+.form p {
+  color: red;
+}
+.form button {
+  width: 120px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}

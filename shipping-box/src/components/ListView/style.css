@@ -1,0 +1,25 @@
+.table table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 4px 4px #cccccc;
+}
+
+.table td,
+.table th {
+  padding: 5px;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.colored-box {
+  height: 20px;
+  width: 60px;
+}
